@@ -70,8 +70,7 @@ tickets = checked_raffle(participants)
 for santa, recipient in tickets.items():
     ticket_path = output_dir_path + '/' + santa + '.txt'
     with open(ticket_path, 'w') as ticket:
-        ticket.write(message)
-        ticket.write(recipient)
+        ticket.write("{0}\n{1}\n".format(message, recipient))
 
 
 
