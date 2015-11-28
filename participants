@@ -1,3 +1,6 @@
-Alice
-Bob
-Clara Decker
+{
+    "participants": [
+        ["Alice", "Bob"],
+        ["Clara", "Diane"]
+    ]
+}
